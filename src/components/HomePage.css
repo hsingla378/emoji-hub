@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.site-title {
+  font-size: 3rem;
+  margin: 0.5em 0;
+  color: #12131e;
+  text-align: center;
+}
+
+#category-select {
+    padding: 1em;;
+}
+
+.emoji-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+/* Tablet Screen */
+
+@media (min-width: 768px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 1024px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Big screen */
+@media (min-width: 1280px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

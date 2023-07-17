@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.emoji-card {
+  width: 100%;
+  height: 300px;
+  flex: 1 270px;
+  background-color: #123a4c;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  margin: 1.3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.card-upper {
+  display: flex;
+}
+
+.emoji-category,
+.emoji-group {
+  text-transform: capitalize;
+  background-color: #146685;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  position: absolute;
+  width: 48%;
+  height: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-category {
+  left: 0;
+  top: 0;
+  border-radius: 5px 0 0 0;
+}
+
+.emoji-group {
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 0 0;
+}
+
+.emoji-name {
+  font-size: 1.2em;
+  line-height: 1.4;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 1em;
+}
+
+.emoji {
+  font-size: 2.5em;
+  position: absolute;
+  top: -2rem;
+}
+
+.html-code {
+  background-color: #1fa7c9;
+  padding: 0.5em;
+  display: inline-block;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -1em;
+}
