@@ -55,6 +55,7 @@ export default function LandingPage() {
   useEffect(() => {
     fetchEmojis();
     findUniqueCategories();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
