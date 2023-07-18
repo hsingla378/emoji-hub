@@ -1,0 +1,28 @@
+.emoji-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+  margin-top: 1.5em;
+}
+
+/* Tablet Screen */
+
+@media (min-width: 768px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 1024px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Big screen */
+@media (min-width: 1280px) {
+  .emoji-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,10 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
 .site-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0.7em 0;
   color: #12131e;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .site-title {
+    font-size: 3rem;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 1024px) {
+  .site-title {
+    font-size: 4rem;
+  }
+}
+
+/* Big screen */
+@media (min-width: 1280px) {
+  .site-title {
+    font-size: 5rem;
+  }
 }
