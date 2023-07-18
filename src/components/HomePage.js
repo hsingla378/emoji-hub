@@ -40,7 +40,7 @@ export default function LandingPage() {
     return uniqueCategories;
   };
 
-  //Handle the selecting of category from dropdown
+  // Handle the selecting of category from dropdown
   const handleCategory = (category) => {
     if (category === "") {
       setFilteredEmojisData(emojisData);
