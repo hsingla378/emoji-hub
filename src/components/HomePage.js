@@ -41,12 +41,13 @@ export default function LandingPage() {
   };
 
   //Handle the selecting of category from dropdown
-  const handleCategory = async (category) => {
-    let data = await fetchEmojis();
+  const handleCategory = (category) => {
     if (category === "") {
-      setFilteredEmojisData(data);
+      setFilteredEmojisData(emojisData);
     } else {
-      let filteredData = data.filter((obj) => obj.category === category);
+      const filteredData = emojisData.filter(
+        (obj) => obj.category === category
+      );
       setFilteredEmojisData(filteredData);
     }
   };
