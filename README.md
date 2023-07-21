@@ -2,7 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Live Link
+## Live Lin
+
+A HackerEarth challenge done in 6 hours.
+
 
 Check  [Live Demo](https://emoji-hub-himanshu.netlify.app/).
 
